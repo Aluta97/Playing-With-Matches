@@ -7,13 +7,31 @@
         <style type="text/css">
         /*CSS goes here */
         </style>
-
+          <link rel="stylesheet" href="styles.css"
   </head>
   <body>
-        <!--HTML goes here-->
-        <div style ="width:50px; height: 45px; background-color:blue; font-size:20px;">
-          <h2 style "font-family: Arial">75</h2>
+
+        <div style = "width:50px; height:70px; background-color:blue; font-size:20px;">
+          <h1>75</h1>
         </div>
+        <div id = "random" style = "width:50px; height:70px; background-color:yellow; font-size:20px;"></div>
+
+
+        <script type="text/javascript">
+
+        function getRandomIntInclusive(min, max) {
+         return Math.floor(Math.random() * (9 - 1 + 1)) + 1;
+}
+
+        var el = document.querySelector("#random")
+        function upDate(){
+        el.innerHTML = getRandomIntInclusive(1, 9);
+}
+        getRandomIntInclusive(1, 9);
+        upDate();
+
+      	</script>
+
 
   </body>
   </html>
