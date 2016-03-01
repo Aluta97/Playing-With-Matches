@@ -4,34 +4,22 @@
 
         <title>My first webpage</title>
 
-        <style type="text/css">
-        /*CSS goes here */
-        </style>
-          <link rel="stylesheet" href="styles.css"
+        <style type="text/css" link rel="stylesheet" href="styles.css">
+         </style>
+
+          <link rel="stylesheet" href="styles.css">
   </head>
   <body>
 
-        <div style = "width:50px; height:70px; background-color:blue; font-size:20px;">
-          <h1>75</h1>
-        </div>
-        <div id = "random" style = "width:50px; height:70px; background-color:yellow; font-size:20px;"></div>
+        <!-- <div style = "width:50px; height:70px; background-color:blue; font-size:20px;"></div> -->
+        <div id = "random"></div>
 
+          <div>
+            <div id = "two"></div>
+            <div id = "three"></div>
+         </div>
 
-        <script type="text/javascript">
-
-        function getRandomIntInclusive(min, max) {
-         return Math.floor(Math.random() * (9 - 1 + 1)) + 1;
-}
-
-        var el = document.querySelector("#random")
-        function upDate(){
-        el.innerHTML = getRandomIntInclusive(1, 9);
-}
-        getRandomIntInclusive(1, 9);
-        upDate();
-
-      	</script>
-
+        <script type="text/javascript" src="javascript.js"></script>
 
   </body>
   </html>
