@@ -1,24 +1,18 @@
-
-#random {
-width:100px;
-height:100px;
-background-color:orange;
-font-size:80px;
-text-align:center;
+.random {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  font-size: 80px;
+  border-style: dashed;
+  text-align: center;
+  diplay-text:inline;
 }
 
-#two {
-width:100px;
-height:100px;
-background-color:green;
-font-size:80px;
-text-align:center;
-}
-
-#three {
-width:100px;
-height:100px;
-background-color:yellow;
-font-size:80px;
-text-align: center;
+.highlight {
+  background-color: red;
+  border-style:dashed:
+  text-align:center;
+  widtth:100px;
+  height:100px;
+  font-size: 80px;
 }
