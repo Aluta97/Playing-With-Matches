@@ -1,24 +1,23 @@
 .random {
+  display: inline-block;
   width: 100px;
   height: 100px;
   background-color: orange;
   font-size: 80px;
-  border-style: dashed;
+  border-style: solid;
   text-align: center;
-  diplay-text:inline;
 }
 
 .highlight {
   background-color: red;
   border-style:dashed:
   text-align:center;
-  widtth:100px;
+  width:100px;
   height:100px;
   font-size: 80px;
 }
 
-
-  /*button {
+  button {
   height:50px;
   width:120px;
   border-color:#6495ED;
@@ -27,4 +26,4 @@
   border-radius: 5px;
   margin:auto;
   text-align:center;
-}*/
+}
